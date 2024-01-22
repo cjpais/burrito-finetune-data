@@ -1,0 +1,233 @@
+GENERATED CODE COMPLETION:
+ ```javascript
+const result = data
+    .sort((a, b) => b.created - a.created) // Sorting newest to oldest
+    .slice(0, 10); // Selecting the last 10 entries
+result;
+```
+GENERATED KEYWORD COMPLETION:
+ ["latest posts", "recent updates", "newest entries", "fresh content", "recent articles", "current posts", "recently published", "latest updates", "newly added", "recent posts"]
+GENERATED KEYWORDS:
+ [ "latest posts", "recent updates", "newest entries", "fresh content", "recent articles",
+  "current posts", "recently published", "latest updates", "newly added", "recent posts" ]
+PROCESSED KEYWORD DATA:
+ [
+  {
+    created: 1705045871,
+    date: "Jan 11, 2024 - 11:51pm",
+    hash: "b97ede1999dcf1559e6190f70b08599b8d5b854127c72aa23fa1b48c788cd850",
+    title: "\"Embracing Passion: Finding Like-Minded Individuals\"",
+    summary: "I seek the company of people who are deeply passionate about their interests, whether it's computing, surfing, or climbing. To me, it's important to be excited about all aspects of my life and associate with those who share this intense enthusiasm. Amidst my schedule, I'm looking forward to finding a moment for leisure activities like climbing or slacklining, and to use the weekend for contemplation and strategizing my path forward. The prospect of tomorrow brings a sense of promise, hinting at the potential for new beginnings and the excitement of storytelling.",
+    text: "I'm always looking to be around more smart and interesting people who really care about what they do and are not just going through the motions all the time. Yeah, I guess being in computing is like a passion and I want to be around people who are passionate about it. I think the same goes for many of the things that I'm into, surfing or climbing. I want to be around those passionate people in those sports, the people who are psyched about it because I also want to be psyched about it. I don't want to just be like, oh yeah, it's okay. I just do that thing. No, I want to be stoked and yeah, I want to be stoked about like every aspect of my life. So I do want to surround myself with more of those stoked people and yeah, just in every aspect of life. And I can't wait to hopefully have a moment of a breather at least for a little bit tomorrow and maybe go climb or slackline or something and look forward to the weekend where I can maybe take a breather as well and still have plenty of time to think and do a bit of a reset and figure out where I'm at and how I want to move forward and evaluate what I have. And yeah, I don't know if I'll have demo, quote unquote, tomorrow, but I'm feeling the promise right now and feeling the promise may be enough to begin to tell a story and that's exciting. So maybe there is some potential."
+  },
+  {
+    created: 1705042505,
+    date: "Jan 11, 2024 - 10:55pm",
+    hash: "a512727d78101898fda9fa1155ad4a9e32c1c266d46a27438668d710c8ccf2b5",
+    title: "\"Emotional Rollercoaster of Coding: Seeking Advice and the Thrill of Progress\"",
+    summary: "The writer expresses how their emotional state fluctuates with the successes and failures of their coding efforts, experiencing a marked improvement when their code shows promise. They note the importance of persisting through challenging times and mention that consulting others with more expertise is extremely beneficial for progress. The writer admits to having only a conceptual understanding of machine learning and expresses a strong desire to deepen their knowledge, particularly in areas like transformer models and mixed experts architectures. The main takeaway from their experience is the value of seeking advice from knowledgeable people, which highlights both the benefits of recognizing one's limitations and the learning that comes from direct engagement with challenges and expert guidance.",
+    text: "It's so interesting to me how my mood changes as a result of how my code is working. If my code is not working very well, my internal state gets very depressed and I think I don't know what I'm talking about. And oftentimes that is the case. But when the code is showing promise and is at least working to some degree, it is remarkable the improvement in my mood, how excited I am, how the ideas begin to flow when things are working. And I guess it's needing to push through the pit of despair where you find that things are not working and just to keep going against it and keep finding the breakthroughs and hitting the wall and finding the breakthrough. And one lesson for myself from this is reaching out to someone who has a bit more domain expertise is really remarkably helpful. It's amazing how just having a conversation with someone else who has some knowledge makes things move faster. And I really do wish to surround myself with people who know more about AI than I do. I don't know anything. I legitimately don't know anything. Effectively, I'm like an okay prompt engineer and I've read some papers. But do I really understand the foundations of machine learning? No. I have a kind of conceptual understanding, but I really wish to develop that much more. I really, really do. It is fascinating to me. And I am also curious to probably implement my own transformer models and try to understand how they fundamentally work. And so when I read a paper, I know what it means when they're doing certain things. So I can understand the mixture of experts, architecture at a fairly deep level. And maybe this understanding is for not, but I'm still curious about it. And boy, yeah, like I said, just what an amazing lesson to learn. What an incredible lesson to learn to just go talk to someone. And it's so much easier to talk to someone who knows what you're talking about and can at least offer something like being dumber. Being dumber is amazing. I love being dumber because the other person can just say something that makes so much more sense. And as a result, I can learn from that. And I learned through experience by bashing my head into a fucking wall for like days. And what did I learn out of that experience? I learned two great things that I should talk to people. Well, really, actually, it's just that that I should talk to people and I guess be around more of those people if possible."
+  },
+  {
+    created: 1705041955,
+    date: "Jan 11, 2024 - 10:45pm",
+    hash: "8403ca45c3d9a70e6da2a05637784638e98f2d0241562a7bed4a5f2f68eff78e",
+    title: "\"Embracing the Challenges of Developer Innovation\"",
+    summary: "The speaker is excited about tomorrow but acknowledges that as a developer facing new challenges, the work is not trivial, especially given the lack of extensive documentation and the solitary nature of their current work process. They express a desire to share their learnings, possibly by writing them down, and emphasize the importance of collaboration, suggesting that \"if we do this together, it will be a better world.\" The speaker is tired of creating misleadingly impressive demos and aims to write code and interact with large language models in a more genuine and transparent way. Lastly, they recognize the complexity of building an effective agential system, admitting their current limitations while believing in its importance, and they present open questions about processing and connecting large amounts of data to better understand who we are.",
+    text: "Feeling good about tomorrow. It's quite late. I guess I'm still excited in my body. And I'm getting the energy to express. And I don't know exactly what the expression is going to be yet. But one of the things that I feel recently is seeing all of these announcements and demos and things, it's for me as a developer, trying to solve some of these things definitely doesn't feel super trivial. And to be fair, I haven't been working on it very, very long. I haven't been working on it with a team of people. So maybe this is partially the issue. There's also very little documentation out there for the kinds of things that I'm experimenting with. And as Raphael said, I probably should go and basically write down my learnings. And, you know, I guess that's something that I'll write down on my questions list. So let me do that real fast. Right. So I guess the point of this message, in some way, is I'm trying to do the darn thing. And I don't want to be afraid to put out half-baked work. As in, it does actually work. It's not perfect. But I also want to have a call to action to be like, if we do this together, it will be a better world. And I don't need to hide behind doing things behind closed doors and seeing that demos may or may not be real. I've built many demos in my life. I know how easy it is to potentially impress someone with a demo. But behind the scenes, you know, it's the Homer Simpson-like meme with his back clipped together so he looks super sexy. Like, no. I'm tired of doing that. I'm tired of doing that. And I'm actively trying to write code in such a way where it is not doing that and also write calls to large language models where it's not doing that. And I'm also not perfect. Like, what I just described is an agential system. To do that correctly is an agential system. And I do not have the right understanding to build a very effective agential system right now. I don't. But I do believe that is generally the direction we are going. And that is the direction we should be going. And how do we get there? And how do we begin to process large amounts of data to put it in the right format? How do we connect data sources to each other? Those are all open and important questions to form an overall better context of who we are. And I would love to say just like shoving all the documents into RAG and pulling out the top five is going to work. But like, I just don't know how that's going to fucking work. It's just not enough context about someone. I can't fit my context in five documents unless those documents are perfect documents. And maybe through large language models we can start generating more perfect documents for them."
+  },
+  {
+    created: 1705041050,
+    date: "Jan 11, 2024 - 10:30pm",
+    hash: "dece2af86483238c98a326f1f87dbc73f93b735644ef6b68933f474163a9b819",
+    title: "\"Optimizing Data Transformation with GPT-4\"",
+    summary: "The individual has discovered that working backward from a desired result with a large language model is surprisingly effective, especially when detailing the problem forward seems challenging. This backward approach has simplified the problem and resulted in the use of GPT-4 for data transformation within the context window, improving the process. An automatic metadata generation pipeline is emerging, where data transformations are added as needed, potentially storing transformations for future use based on query relevance. This system will generate an extensive amount of synthetic data, allowing for the extraction of relevant information through queries fed into the model at later stages, rather than having to pre-determine all questions.",
+    text: "It's funny, with the large language model stuff, working backwards from the answer that I want has seemed to help more than trying to work forward from the large language model, which is very interesting in terms of how it reasons, where, like, I'm working backwards through a problem and it has to, like, write things down on a piece of paper before it continues, which is really fascinating to think about the differences, like, it's hard for me to work this problem forwards, actually. I mean, like, I can just intuit about it forwards, but to then describe it effectively to a large language model, I'm working it backwards. Interesting. But I think, I mean, made decent progress at the very least. I think the problem has been simplified by working backwards in this way. So the last step of the pipeline is just, like, do a data transformation, more or less. And initially I was using, like, a small stupid model to do that, and instead it's just like, okay, we're just going to use GPT-4 and shove everything in the context window under a certain size and do that, and that'll be good enough. And indeed that's what we're going to do. So given that, like, it's helping me start to figure out some aspect of training data as well, like what data I will need to train. And then also it is effectively generating tons of synthetic pairs. So I will want to generate individual synthetic pairs as well. This is something that I'm thinking about after this next step gets done effectively. After this step is done, well, then we can go and basically what we'll want to do is remove whatever transform we're doing. So if we've transformed some data, we're going to want to go back to the metadata field, look at the unstructured data, and just immediately run that transformation on that piece of data. And if there is nothing to be transformed, we'll just output null, and nothing will go back into the metadata file. But this is effectively going to be automatically adding steps to the pipeline. That's kind of what's happening here. You ask it a question, and it's going to go and just add that data to the pipeline. Initially, none of that data is going to be used probably, but in the future, what would be great is to effectively cache those transformations and have a description of what the transformations that you have are on any piece of data. And if that transformation matches up with the user's query in any reasonable way, and again, maybe this is using embeddings or something, or maybe just a large language model that's tuned to it, it goes and does that. But this is going to be effectively like an automatic metadata generation system that will hopefully continuously improve. And we're just going to generate a massive amount of synthetic data over whatever data we put in. And I don't need to come up with all of the questions for the data in advance, because I can go and ask those questions later to get the relevant data I want out of it. And that is going to be kind of what we are really doing initially."
+  },
+  {
+    created: 1705035920,
+    date: "Jan 11, 2024 - 9:05pm",
+    hash: "3c4b087655397c606489b48b9ff4959985b1f6e8140df8580f7e997a0bc46c3e",
+    title: "\"Enhancing Temporal Awareness for Informed Interpretation\"",
+    summary: "Having a more nuanced understanding of time would be beneficial. Currently, there's room for improvement in grasping the way events are interconnected over time. Recognizing the relationships between temporal events can provide significant context. This enhanced temporal awareness would enrich the interpretation and processing of information.",
+    text: "One thing that would be really nice is to have some level of understanding of time. Even a bit better than it does now. It should understand that things in time need to be combined with each other or they could be quite related and that could be important information."
+  },
+  {
+    created: 1705025952,
+    date: "Jan 11, 2024 - 6:19pm",
+    hash: "1381ea4255587fa12d3e96c5c93eb9fb36a16cbef423ddeb01ded228616a68d7",
+    title: "\"Advancing Hardware Performance: The Nexus of Software and Hardware Convergence\"",
+    summary: "NVIDIA has historically excelled in developing software tailored to its hardware, which has been pivotal to its success and influence in the AI industry, much of which can be attributed to its proprietary CUDA technology. The importance of software in enhancing hardware capabilities is highlighted, prompting a reflection on the potential of working with open-source libraries like llama.cpp to further accelerate hardware performance. The writer expresses a willingness to operate at the intersection of software and hardware, an area they find intriguing, especially with tasks like memory management and massively parallel processing on machine learning inference cards. This convergence of software and hardware is not only a subject of professional interest for the author but also recognized as an area of important technological development.",
+    text: "It's interesting that NVIDIA's trend throughout its history has been making very excellent software for its hardware, as in initially bringing drivers in house, according to Asianometry. And how, I mean, if we look forward to today, how them being able to focus on software for their hardware has enabled them to be as big of a company as they are, and to be a force in the AI industry is only because of their drivers. At the end of the day, it's because of CUDA. So it's interesting to see how important software is for hardware. And yeah, I mean, it just makes me think maybe I need to look at llama.cpp and all of these open source libraries to accelerate hardware, as well as maybe there's some frameworks that still need help. And what ways can we accelerate them? Because I don't mind being on the boundary of software and hardware. I worked on that boundary already, effectively firmware, or right above firmware, and I can be comfortable in that place. And managing memory and all of that is, it's an interesting thing. And to work on something massively parallel, like a machine learning inference card, would be fascinating and also quite important, I think. So that's a fun little tangent, I guess, of possibilities."
+  },
+  {
+    created: 1705024292,
+    date: "Jan 11, 2024 - 5:51pm",
+    hash: "e862e1c0c4ca0eb3039d3066a2bde61c2422ab5c474741acac7c882ea3e75448",
+    title: "\"Marveling at Asianometry: An Amazing and Incredible Experience\"",
+    summary: "I'm currently on a brief break, having decided to get some food for myself. In the midst of this, I'm spending my time watching Asianometry, which I find absolutely fascinating. It's remarkable how one can simply compile various items into a context window and often achieve good results. The process and its outcome are indeed amazing and incredible.",
+    text: "Taking a little bit of a break. I mean, you can just shove everything into a context window and hope for the best and kind of works. It's amazing. Incredible. But went to get some food. Now watching some Asianometry. Because, yeah, it's fascinating."
+  },
+  {
+    created: 1705024272,
+    date: "Jan 11, 2024 - 5:51pm",
+    hash: "93f1ad3f734120aaa70835f53b83e7a57f2335d9719a7dfaf305b0b2a0fc180f",
+    title: "\"Chip War: Understanding the Semiconductor Industry\"",
+    summary: "\"Chip War\" by Chris Miller is recommended for those looking to gain a deeper understanding of the semiconductor industry. The book offers insights into the complexities of the semiconductor space. If you're interested in this field, considering this book could be beneficial. \"Chip War\" could provide valuable knowledge about the technological, economic, and strategic aspects of semiconductors.",
+    text: "It's probably worth getting the book Chip War by Chris Miller to understand more about semiconductor space generally."
+  },
+  {
+    created: 1704902588,
+    date: "Jan 10, 2024 - 8:03am",
+    hash: "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    title: "\"Making the Most of Suboptimal Surf Conditions\"",
+    summary: "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    text: "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  }
+]
+MY PROMPT WAS:
+ 
+can you get me the latest 10 posts?. Do your best to infer the information based on the data given to you. Can you please put it in the format: [
+  {
+    "hash": "string",
+    "title": "string",
+    "summary": "string"
+  }
+]
+
+Here is the data: [
+  {
+    "created": 1705045871,
+    "date": "Jan 11, 2024 - 11:51pm",
+    "hash": "b97ede1999dcf1559e6190f70b08599b8d5b854127c72aa23fa1b48c788cd850",
+    "title": "\"Embracing Passion: Finding Like-Minded Individuals\"",
+    "summary": "I seek the company of people who are deeply passionate about their interests, whether it's computing, surfing, or climbing. To me, it's important to be excited about all aspects of my life and associate with those who share this intense enthusiasm. Amidst my schedule, I'm looking forward to finding a moment for leisure activities like climbing or slacklining, and to use the weekend for contemplation and strategizing my path forward. The prospect of tomorrow brings a sense of promise, hinting at the potential for new beginnings and the excitement of storytelling.",
+    "text": "I'm always looking to be around more smart and interesting people who really care about what they do and are not just going through the motions all the time. Yeah, I guess being in computing is like a passion and I want to be around people who are passionate about it. I think the same goes for many of the things that I'm into, surfing or climbing. I want to be around those passionate people in those sports, the people who are psyched about it because I also want to be psyched about it. I don't want to just be like, oh yeah, it's okay. I just do that thing. No, I want to be stoked and yeah, I want to be stoked about like every aspect of my life. So I do want to surround myself with more of those stoked people and yeah, just in every aspect of life. And I can't wait to hopefully have a moment of a breather at least for a little bit tomorrow and maybe go climb or slackline or something and look forward to the weekend where I can maybe take a breather as well and still have plenty of time to think and do a bit of a reset and figure out where I'm at and how I want to move forward and evaluate what I have. And yeah, I don't know if I'll have demo, quote unquote, tomorrow, but I'm feeling the promise right now and feeling the promise may be enough to begin to tell a story and that's exciting. So maybe there is some potential."
+  },
+  {
+    "created": 1705042505,
+    "date": "Jan 11, 2024 - 10:55pm",
+    "hash": "a512727d78101898fda9fa1155ad4a9e32c1c266d46a27438668d710c8ccf2b5",
+    "title": "\"Emotional Rollercoaster of Coding: Seeking Advice and the Thrill of Progress\"",
+    "summary": "The writer expresses how their emotional state fluctuates with the successes and failures of their coding efforts, experiencing a marked improvement when their code shows promise. They note the importance of persisting through challenging times and mention that consulting others with more expertise is extremely beneficial for progress. The writer admits to having only a conceptual understanding of machine learning and expresses a strong desire to deepen their knowledge, particularly in areas like transformer models and mixed experts architectures. The main takeaway from their experience is the value of seeking advice from knowledgeable people, which highlights both the benefits of recognizing one's limitations and the learning that comes from direct engagement with challenges and expert guidance.",
+    "text": "It's so interesting to me how my mood changes as a result of how my code is working. If my code is not working very well, my internal state gets very depressed and I think I don't know what I'm talking about. And oftentimes that is the case. But when the code is showing promise and is at least working to some degree, it is remarkable the improvement in my mood, how excited I am, how the ideas begin to flow when things are working. And I guess it's needing to push through the pit of despair where you find that things are not working and just to keep going against it and keep finding the breakthroughs and hitting the wall and finding the breakthrough. And one lesson for myself from this is reaching out to someone who has a bit more domain expertise is really remarkably helpful. It's amazing how just having a conversation with someone else who has some knowledge makes things move faster. And I really do wish to surround myself with people who know more about AI than I do. I don't know anything. I legitimately don't know anything. Effectively, I'm like an okay prompt engineer and I've read some papers. But do I really understand the foundations of machine learning? No. I have a kind of conceptual understanding, but I really wish to develop that much more. I really, really do. It is fascinating to me. And I am also curious to probably implement my own transformer models and try to understand how they fundamentally work. And so when I read a paper, I know what it means when they're doing certain things. So I can understand the mixture of experts, architecture at a fairly deep level. And maybe this understanding is for not, but I'm still curious about it. And boy, yeah, like I said, just what an amazing lesson to learn. What an incredible lesson to learn to just go talk to someone. And it's so much easier to talk to someone who knows what you're talking about and can at least offer something like being dumber. Being dumber is amazing. I love being dumber because the other person can just say something that makes so much more sense. And as a result, I can learn from that. And I learned through experience by bashing my head into a fucking wall for like days. And what did I learn out of that experience? I learned two great things that I should talk to people. Well, really, actually, it's just that that I should talk to people and I guess be around more of those people if possible."
+  },
+  {
+    "created": 1705041955,
+    "date": "Jan 11, 2024 - 10:45pm",
+    "hash": "8403ca45c3d9a70e6da2a05637784638e98f2d0241562a7bed4a5f2f68eff78e",
+    "title": "\"Embracing the Challenges of Developer Innovation\"",
+    "summary": "The speaker is excited about tomorrow but acknowledges that as a developer facing new challenges, the work is not trivial, especially given the lack of extensive documentation and the solitary nature of their current work process. They express a desire to share their learnings, possibly by writing them down, and emphasize the importance of collaboration, suggesting that \"if we do this together, it will be a better world.\" The speaker is tired of creating misleadingly impressive demos and aims to write code and interact with large language models in a more genuine and transparent way. Lastly, they recognize the complexity of building an effective agential system, admitting their current limitations while believing in its importance, and they present open questions about processing and connecting large amounts of data to better understand who we are.",
+    "text": "Feeling good about tomorrow. It's quite late. I guess I'm still excited in my body. And I'm getting the energy to express. And I don't know exactly what the expression is going to be yet. But one of the things that I feel recently is seeing all of these announcements and demos and things, it's for me as a developer, trying to solve some of these things definitely doesn't feel super trivial. And to be fair, I haven't been working on it very, very long. I haven't been working on it with a team of people. So maybe this is partially the issue. There's also very little documentation out there for the kinds of things that I'm experimenting with. And as Raphael said, I probably should go and basically write down my learnings. And, you know, I guess that's something that I'll write down on my questions list. So let me do that real fast. Right. So I guess the point of this message, in some way, is I'm trying to do the darn thing. And I don't want to be afraid to put out half-baked work. As in, it does actually work. It's not perfect. But I also want to have a call to action to be like, if we do this together, it will be a better world. And I don't need to hide behind doing things behind closed doors and seeing that demos may or may not be real. I've built many demos in my life. I know how easy it is to potentially impress someone with a demo. But behind the scenes, you know, it's the Homer Simpson-like meme with his back clipped together so he looks super sexy. Like, no. I'm tired of doing that. I'm tired of doing that. And I'm actively trying to write code in such a way where it is not doing that and also write calls to large language models where it's not doing that. And I'm also not perfect. Like, what I just described is an agential system. To do that correctly is an agential system. And I do not have the right understanding to build a very effective agential system right now. I don't. But I do believe that is generally the direction we are going. And that is the direction we should be going. And how do we get there? And how do we begin to process large amounts of data to put it in the right format? How do we connect data sources to each other? Those are all open and important questions to form an overall better context of who we are. And I would love to say just like shoving all the documents into RAG and pulling out the top five is going to work. But like, I just don't know how that's going to fucking work. It's just not enough context about someone. I can't fit my context in five documents unless those documents are perfect documents. And maybe through large language models we can start generating more perfect documents for them."
+  },
+  {
+    "created": 1705041050,
+    "date": "Jan 11, 2024 - 10:30pm",
+    "hash": "dece2af86483238c98a326f1f87dbc73f93b735644ef6b68933f474163a9b819",
+    "title": "\"Optimizing Data Transformation with GPT-4\"",
+    "summary": "The individual has discovered that working backward from a desired result with a large language model is surprisingly effective, especially when detailing the problem forward seems challenging. This backward approach has simplified the problem and resulted in the use of GPT-4 for data transformation within the context window, improving the process. An automatic metadata generation pipeline is emerging, where data transformations are added as needed, potentially storing transformations for future use based on query relevance. This system will generate an extensive amount of synthetic data, allowing for the extraction of relevant information through queries fed into the model at later stages, rather than having to pre-determine all questions.",
+    "text": "It's funny, with the large language model stuff, working backwards from the answer that I want has seemed to help more than trying to work forward from the large language model, which is very interesting in terms of how it reasons, where, like, I'm working backwards through a problem and it has to, like, write things down on a piece of paper before it continues, which is really fascinating to think about the differences, like, it's hard for me to work this problem forwards, actually. I mean, like, I can just intuit about it forwards, but to then describe it effectively to a large language model, I'm working it backwards. Interesting. But I think, I mean, made decent progress at the very least. I think the problem has been simplified by working backwards in this way. So the last step of the pipeline is just, like, do a data transformation, more or less. And initially I was using, like, a small stupid model to do that, and instead it's just like, okay, we're just going to use GPT-4 and shove everything in the context window under a certain size and do that, and that'll be good enough. And indeed that's what we're going to do. So given that, like, it's helping me start to figure out some aspect of training data as well, like what data I will need to train. And then also it is effectively generating tons of synthetic pairs. So I will want to generate individual synthetic pairs as well. This is something that I'm thinking about after this next step gets done effectively. After this step is done, well, then we can go and basically what we'll want to do is remove whatever transform we're doing. So if we've transformed some data, we're going to want to go back to the metadata field, look at the unstructured data, and just immediately run that transformation on that piece of data. And if there is nothing to be transformed, we'll just output null, and nothing will go back into the metadata file. But this is effectively going to be automatically adding steps to the pipeline. That's kind of what's happening here. You ask it a question, and it's going to go and just add that data to the pipeline. Initially, none of that data is going to be used probably, but in the future, what would be great is to effectively cache those transformations and have a description of what the transformations that you have are on any piece of data. And if that transformation matches up with the user's query in any reasonable way, and again, maybe this is using embeddings or something, or maybe just a large language model that's tuned to it, it goes and does that. But this is going to be effectively like an automatic metadata generation system that will hopefully continuously improve. And we're just going to generate a massive amount of synthetic data over whatever data we put in. And I don't need to come up with all of the questions for the data in advance, because I can go and ask those questions later to get the relevant data I want out of it. And that is going to be kind of what we are really doing initially."
+  },
+  {
+    "created": 1705035920,
+    "date": "Jan 11, 2024 - 9:05pm",
+    "hash": "3c4b087655397c606489b48b9ff4959985b1f6e8140df8580f7e997a0bc46c3e",
+    "title": "\"Enhancing Temporal Awareness for Informed Interpretation\"",
+    "summary": "Having a more nuanced understanding of time would be beneficial. Currently, there's room for improvement in grasping the way events are interconnected over time. Recognizing the relationships between temporal events can provide significant context. This enhanced temporal awareness would enrich the interpretation and processing of information.",
+    "text": "One thing that would be really nice is to have some level of understanding of time. Even a bit better than it does now. It should understand that things in time need to be combined with each other or they could be quite related and that could be important information."
+  },
+  {
+    "created": 1705025952,
+    "date": "Jan 11, 2024 - 6:19pm",
+    "hash": "1381ea4255587fa12d3e96c5c93eb9fb36a16cbef423ddeb01ded228616a68d7",
+    "title": "\"Advancing Hardware Performance: The Nexus of Software and Hardware Convergence\"",
+    "summary": "NVIDIA has historically excelled in developing software tailored to its hardware, which has been pivotal to its success and influence in the AI industry, much of which can be attributed to its proprietary CUDA technology. The importance of software in enhancing hardware capabilities is highlighted, prompting a reflection on the potential of working with open-source libraries like llama.cpp to further accelerate hardware performance. The writer expresses a willingness to operate at the intersection of software and hardware, an area they find intriguing, especially with tasks like memory management and massively parallel processing on machine learning inference cards. This convergence of software and hardware is not only a subject of professional interest for the author but also recognized as an area of important technological development.",
+    "text": "It's interesting that NVIDIA's trend throughout its history has been making very excellent software for its hardware, as in initially bringing drivers in house, according to Asianometry. And how, I mean, if we look forward to today, how them being able to focus on software for their hardware has enabled them to be as big of a company as they are, and to be a force in the AI industry is only because of their drivers. At the end of the day, it's because of CUDA. So it's interesting to see how important software is for hardware. And yeah, I mean, it just makes me think maybe I need to look at llama.cpp and all of these open source libraries to accelerate hardware, as well as maybe there's some frameworks that still need help. And what ways can we accelerate them? Because I don't mind being on the boundary of software and hardware. I worked on that boundary already, effectively firmware, or right above firmware, and I can be comfortable in that place. And managing memory and all of that is, it's an interesting thing. And to work on something massively parallel, like a machine learning inference card, would be fascinating and also quite important, I think. So that's a fun little tangent, I guess, of possibilities."
+  },
+  {
+    "created": 1705024292,
+    "date": "Jan 11, 2024 - 5:51pm",
+    "hash": "e862e1c0c4ca0eb3039d3066a2bde61c2422ab5c474741acac7c882ea3e75448",
+    "title": "\"Marveling at Asianometry: An Amazing and Incredible Experience\"",
+    "summary": "I'm currently on a brief break, having decided to get some food for myself. In the midst of this, I'm spending my time watching Asianometry, which I find absolutely fascinating. It's remarkable how one can simply compile various items into a context window and often achieve good results. The process and its outcome are indeed amazing and incredible.",
+    "text": "Taking a little bit of a break. I mean, you can just shove everything into a context window and hope for the best and kind of works. It's amazing. Incredible. But went to get some food. Now watching some Asianometry. Because, yeah, it's fascinating."
+  },
+  {
+    "created": 1705024272,
+    "date": "Jan 11, 2024 - 5:51pm",
+    "hash": "93f1ad3f734120aaa70835f53b83e7a57f2335d9719a7dfaf305b0b2a0fc180f",
+    "title": "\"Chip War: Understanding the Semiconductor Industry\"",
+    "summary": "\"Chip War\" by Chris Miller is recommended for those looking to gain a deeper understanding of the semiconductor industry. The book offers insights into the complexities of the semiconductor space. If you're interested in this field, considering this book could be beneficial. \"Chip War\" could provide valuable knowledge about the technological, economic, and strategic aspects of semiconductors.",
+    "text": "It's probably worth getting the book Chip War by Chris Miller to understand more about semiconductor space generally."
+  },
+  {
+    "created": 1704902588,
+    "date": "Jan 10, 2024 - 8:03am",
+    "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    "title": "\"Making the Most of Suboptimal Surf Conditions\"",
+    "summary": "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    "text": "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  }
+]
+MY COMPLETION WAS:
+ Certainly! Here are the latest 10 posts in the requested format:
+
+```json
+[
+  {
+    "hash": "b97ede1999dcf1559e6190f70b08599b8d5b854127c72aa23fa1b48c788cd850",
+    "title": "\"Embracing Passion: Finding Like-Minded Individuals\"",
+    "summary": "I seek the company of people who are deeply passionate about their interests, whether it's computing, surfing, or climbing..."
+  },
+  
+  {
+    "hash": "a512727d78101898fda9fa1155ad4a9e32c1c266d46a27438668d710c8ccf2b5",
+    "title": "\"Emotional Rollercoaster of Coding: Seeking Advice and the Thrill of Progress\"",
+    "summary": "The writer expresses how their emotional state fluctuates with the successes and failures of their coding efforts..."
+  },
+  
+  {
+    "hash": "8403ca45c3d9a70e6da2a05637784638e98f2d0241562a7bed4a5f2f68eff78e",
+    "title": "\"Embracing the Challenges of Developer Innovation\"",
+    "summary": "The speaker is excited about tomorrow but acknowledges that as a developer facing new challenges..."
+  },
+  
+  {
+    "hash": "dece2af86483238c98a326f1f87dbc73f93b735644ef6b68933f474163a9b819",
+    "title": "\"Optimizing Data Transformation with GPT-4\"",
+    "summary": "The individual has discovered that working backward from a desired result with a large language model is surprisingly effective..."
+  },
+  
+  {
+    "hash": "3c4b087655397c606489b48b9ff4959985b1f6e8140df8580f7e997a0bc46c3e",
+    "title": "\"Enhancing Temporal Awareness for Informed Interpretation\"",
+    "summary": "Having a more nuanced understanding of time would be beneficial..."
+  },
+  
+  {
+    "hash": "1381ea4255587fa12d3e96c5c93eb9fb36a16cbef423ddeb01ded228616a68d7",
+    "title": "\"Advancing Hardware Performance: The Nexus of Software and Hardware Convergence\"",
+    "summary": "NVIDIA has historically excelled in developing software tailored to its hardware..."
+  },
+  
+  {
+    "hash": "e862e1c0c4ca0eb3039d3066a2bde61c2422ab5c474741acac7c882ea3e75448",
+    "title": "\"Marveling at Asianometry: An Amazing and Incredible Experience\"",
+    "summary": "I'm currently on a brief break, having decided to get some food for myself..."
+  },
+  
+  {
+    "hash": "93f1ad3f734120aaa70835f53b83e7a57f2335d9719a7dfaf305b0b2a0fc180f",
+    "title": "\"Chip War: Understanding the Semiconductor Industry\"",
+    "summary": "\"Chip War\" by Chris Miller is recommended for those looking to gain a deeper understanding of the semiconductor industry..."
+  },
+  
+  {
+    "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    "title": "\"Making the Most of Suboptimal Surf Conditions\"",
+    "summary": "I went surfing despite the high tide not being ideal, and there were around five of us in the water..."
+  }
+]
+```
+
+Please note that I have provided a snippet of the summary for each post in the list to keep it concise, as you requested the latest 10 but there are only 9 posts provided. If there is an additional 10th post or any more details to be included, please let me know.

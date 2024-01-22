@@ -1,0 +1,178 @@
+GENERATED INFERENCE COMPLETION:
+ ```json
+{
+  "infer": true,
+  "explanation": "Extract dates and corresponding surfing information within the last 7 days. Additionally, infer the 'stoke level' based on the description of the surf conditions and possibly other factors in the text. Include document hash and title with each entry."
+}
+```
+GENERATED CODE COMPLETION:
+ ```javascript
+const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+
+const result = data.filter(d => {
+    const date = new Date(d.created * 1000);
+    return date > sevenDaysAgo;
+});
+result;
+```
+GENERATED KEYWORD COMPLETION:
+ ["surfing", "last 7 days", "surfing activity", "recent surfing", "week's surfing", "surfing experience"]
+GENERATED KEYWORDS:
+ [ "surfing", "last 7 days", "surfing activity", "recent surfing", "week's surfing",
+  "surfing experience" ]
+top similarity 0.8116052564247691
+KEYWORD DATA:
+ [
+  {
+    created: 1704559130,
+    date: "Jan 6, 2024 - 8:38am",
+    hash: "f9d22c33ec1b47a21b5d2cb1916aa61c55151b3d746f8d9506d01e43e16d43d7",
+    title: "\"Surfing at Swami's: A Mixed Bag of Waves, Encounters, and Harmonies\"",
+    summary: "I had a fun surf session at Swami's with decent, but not exceptional, waves and started off catching a solid one. I ran into Gregory, which made the time more enjoyable, as I usually catch a fair number of waves there. There was an incident with an overly aggressive surfer, which was disappointing; he was upset about someone dropping in on him even though it's a common occurrence at Swami's and the other surfer had signaled his intent. Overall, it was a good day, I got to see dolphins while leaving the water, and I spent my time chilling and singing acoustic melodies both in my head and out loud.",
+    text: "I just surfed Swami's, got some decent waves, I wouldn't say they were like out of this world today or anything like that, but it was a fun time, I got like a solid wave to start and then saw Gregory out there and just kind of had a good time, kind of like as per usual caught like a fair number of waves for myself. And yeah, I mean there was one guy getting really aggressive out there which was kind of sad to see, I was like dude, you need to calm down, it's all good, like this is Swami's, people drop in on you, you gotta expect it, also the guy called that he was gonna go left and you were yelling at him for going left, so it's like bro, come on. But yeah, it was a good day and just like enjoying, again saw dolphins as I was getting out of the water and yeah, mostly just chilling and just singing acoustic melodies in my head and out loud the whole time."
+  },
+  {
+    created: 1704902588,
+    date: "Jan 10, 2024 - 8:03am",
+    hash: "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    title: "\"Making the Most of Suboptimal Surf Conditions\"",
+    summary: "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    text: "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  },
+  {
+    created: 1704896517,
+    date: "Jan 10, 2024 - 6:21am",
+    hash: "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+    title: "\"Early Morning Surfing Adventure\"",
+    summary: "Yesterday, I had a great slackline session at Kate Sessions. Now, at 6:20 AM, I'm preparing to go surfing at Swabese, hoping for favorable tide conditions. Despite the really high tide and the potential difficulty of entering the water, the offshore winds could make for good surfing. Additionally, the high tide may reduce the number of people in the water, which could be a plus.",
+    text: "I don't think I mentioned yesterday that I went to Slackline, and it was a solid session. I went to Kate Sessions to do that, and now it is 6.20 in the morning, and I am going to surf. Going up to Swabese, as always, and I'm going to hope that the tide is alright. It's a really, really high tide, but there's offshore winds, so hopefully it looks good. Also, probably less people, because people don't like going when the tide is really high. It's going to make getting into the water pretty tricky, though."
+  },
+  {
+    created: 1704743481,
+    date: "Jan 8, 2024 - 11:51am",
+    hash: "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+    title: "\"Riding the Highs: A Surfing Adventure at Swami's\"",
+    summary: "I just finished an exhilarating hour and a half session of surfing at Swami's, encountering a rush from catching as many waves as possible within that time frame. During the session, I managed to catch a particularly large wave—a \"bomb\"—which others struggled with but I successfully navigated, performing a decent cutback despite it being somewhat slow. Despite the physical demands of surfing, I still have plenty of energy left and feel good about the experience. While surfing brings a sense of fulfillment, I'm also preoccupied with off-shore matters like agency issues and have other thoughts that I'd like to keep to myself.",
+    text: "I just got done surfing Swami's god damn what a rush it feels to like go for an hour and a half you know like running into the water trying to surf as many waves as possible and then have to get out like it's probably closer to an hour and 15 just like a lot a lot of rush to be able to do that um dropped in on a bomb there's a few people that like didn't catch it or like ate shit trying to catch the wave and I dropped in and I mean it was a big one it's probably like five or six uh it's nice and I think it looked okay I did like a pretty big cutback kind of thing um pretty slow honestly but all good I feel like I looked okay so that's nice yeah I mean caught a fair number of waves all things considered and I mean I'm not even tired right now like I have just as much energy as I went in with and like I guess we'll just keep trying to carry that um still so much like thinking to do like this agent stuff is not straightforward um some other thoughts but I want to keep those private"
+  },
+  {
+    created: 1705045871,
+    date: "Jan 11, 2024 - 11:51pm",
+    hash: "b97ede1999dcf1559e6190f70b08599b8d5b854127c72aa23fa1b48c788cd850",
+    title: "\"Embracing Passion: Finding Like-Minded Individuals\"",
+    summary: "I seek the company of people who are deeply passionate about their interests, whether it's computing, surfing, or climbing. To me, it's important to be excited about all aspects of my life and associate with those who share this intense enthusiasm. Amidst my schedule, I'm looking forward to finding a moment for leisure activities like climbing or slacklining, and to use the weekend for contemplation and strategizing my path forward. The prospect of tomorrow brings a sense of promise, hinting at the potential for new beginnings and the excitement of storytelling.",
+    text: "I'm always looking to be around more smart and interesting people who really care about what they do and are not just going through the motions all the time. Yeah, I guess being in computing is like a passion and I want to be around people who are passionate about it. I think the same goes for many of the things that I'm into, surfing or climbing. I want to be around those passionate people in those sports, the people who are psyched about it because I also want to be psyched about it. I don't want to just be like, oh yeah, it's okay. I just do that thing. No, I want to be stoked and yeah, I want to be stoked about like every aspect of my life. So I do want to surround myself with more of those stoked people and yeah, just in every aspect of life. And I can't wait to hopefully have a moment of a breather at least for a little bit tomorrow and maybe go climb or slackline or something and look forward to the weekend where I can maybe take a breather as well and still have plenty of time to think and do a bit of a reset and figure out where I'm at and how I want to move forward and evaluate what I have. And yeah, I don't know if I'll have demo, quote unquote, tomorrow, but I'm feeling the promise right now and feeling the promise may be enough to begin to tell a story and that's exciting. So maybe there is some potential."
+  }
+]
+MY PROMPT WAS:
+ 
+when have i surfed in the last 7 days?. Do your best to infer the information based on the data given to you. Can you please put it in the format: [
+  {
+    "date": "date",
+    "location": "location i surfed",
+    "surfConditions": "description of the surf conditions",
+    "waveHeight": "the height of the waves",
+    "stokeLevel": "infer how stoked I was",
+    "documents": [
+      {
+        "hash": "hash of the document this came from",
+        "title": "title of the document this came from"
+      }
+    ]
+  }
+]
+
+Here is the data: [
+  {
+    "created": 1704559130,
+    "date": "Jan 6, 2024 - 8:38am",
+    "hash": "f9d22c33ec1b47a21b5d2cb1916aa61c55151b3d746f8d9506d01e43e16d43d7",
+    "title": "\"Surfing at Swami's: A Mixed Bag of Waves, Encounters, and Harmonies\"",
+    "summary": "I had a fun surf session at Swami's with decent, but not exceptional, waves and started off catching a solid one. I ran into Gregory, which made the time more enjoyable, as I usually catch a fair number of waves there. There was an incident with an overly aggressive surfer, which was disappointing; he was upset about someone dropping in on him even though it's a common occurrence at Swami's and the other surfer had signaled his intent. Overall, it was a good day, I got to see dolphins while leaving the water, and I spent my time chilling and singing acoustic melodies both in my head and out loud.",
+    "text": "I just surfed Swami's, got some decent waves, I wouldn't say they were like out of this world today or anything like that, but it was a fun time, I got like a solid wave to start and then saw Gregory out there and just kind of had a good time, kind of like as per usual caught like a fair number of waves for myself. And yeah, I mean there was one guy getting really aggressive out there which was kind of sad to see, I was like dude, you need to calm down, it's all good, like this is Swami's, people drop in on you, you gotta expect it, also the guy called that he was gonna go left and you were yelling at him for going left, so it's like bro, come on. But yeah, it was a good day and just like enjoying, again saw dolphins as I was getting out of the water and yeah, mostly just chilling and just singing acoustic melodies in my head and out loud the whole time."
+  },
+  {
+    "created": 1704902588,
+    "date": "Jan 10, 2024 - 8:03am",
+    "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    "title": "\"Making the Most of Suboptimal Surf Conditions\"",
+    "summary": "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    "text": "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  },
+  {
+    "created": 1704896517,
+    "date": "Jan 10, 2024 - 6:21am",
+    "hash": "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+    "title": "\"Early Morning Surfing Adventure\"",
+    "summary": "Yesterday, I had a great slackline session at Kate Sessions. Now, at 6:20 AM, I'm preparing to go surfing at Swabese, hoping for favorable tide conditions. Despite the really high tide and the potential difficulty of entering the water, the offshore winds could make for good surfing. Additionally, the high tide may reduce the number of people in the water, which could be a plus.",
+    "text": "I don't think I mentioned yesterday that I went to Slackline, and it was a solid session. I went to Kate Sessions to do that, and now it is 6.20 in the morning, and I am going to surf. Going up to Swabese, as always, and I'm going to hope that the tide is alright. It's a really, really high tide, but there's offshore winds, so hopefully it looks good. Also, probably less people, because people don't like going when the tide is really high. It's going to make getting into the water pretty tricky, though."
+  },
+  {
+    "created": 1704743481,
+    "date": "Jan 8, 2024 - 11:51am",
+    "hash": "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+    "title": "\"Riding the Highs: A Surfing Adventure at Swami's\"",
+    "summary": "I just finished an exhilarating hour and a half session of surfing at Swami's, encountering a rush from catching as many waves as possible within that time frame. During the session, I managed to catch a particularly large wave—a \"bomb\"—which others struggled with but I successfully navigated, performing a decent cutback despite it being somewhat slow. Despite the physical demands of surfing, I still have plenty of energy left and feel good about the experience. While surfing brings a sense of fulfillment, I'm also preoccupied with off-shore matters like agency issues and have other thoughts that I'd like to keep to myself.",
+    "text": "I just got done surfing Swami's god damn what a rush it feels to like go for an hour and a half you know like running into the water trying to surf as many waves as possible and then have to get out like it's probably closer to an hour and 15 just like a lot a lot of rush to be able to do that um dropped in on a bomb there's a few people that like didn't catch it or like ate shit trying to catch the wave and I dropped in and I mean it was a big one it's probably like five or six uh it's nice and I think it looked okay I did like a pretty big cutback kind of thing um pretty slow honestly but all good I feel like I looked okay so that's nice yeah I mean caught a fair number of waves all things considered and I mean I'm not even tired right now like I have just as much energy as I went in with and like I guess we'll just keep trying to carry that um still so much like thinking to do like this agent stuff is not straightforward um some other thoughts but I want to keep those private"
+  },
+  {
+    "created": 1705045871,
+    "date": "Jan 11, 2024 - 11:51pm",
+    "hash": "b97ede1999dcf1559e6190f70b08599b8d5b854127c72aa23fa1b48c788cd850",
+    "title": "\"Embracing Passion: Finding Like-Minded Individuals\"",
+    "summary": "I seek the company of people who are deeply passionate about their interests, whether it's computing, surfing, or climbing. To me, it's important to be excited about all aspects of my life and associate with those who share this intense enthusiasm. Amidst my schedule, I'm looking forward to finding a moment for leisure activities like climbing or slacklining, and to use the weekend for contemplation and strategizing my path forward. The prospect of tomorrow brings a sense of promise, hinting at the potential for new beginnings and the excitement of storytelling.",
+    "text": "I'm always looking to be around more smart and interesting people who really care about what they do and are not just going through the motions all the time. Yeah, I guess being in computing is like a passion and I want to be around people who are passionate about it. I think the same goes for many of the things that I'm into, surfing or climbing. I want to be around those passionate people in those sports, the people who are psyched about it because I also want to be psyched about it. I don't want to just be like, oh yeah, it's okay. I just do that thing. No, I want to be stoked and yeah, I want to be stoked about like every aspect of my life. So I do want to surround myself with more of those stoked people and yeah, just in every aspect of life. And I can't wait to hopefully have a moment of a breather at least for a little bit tomorrow and maybe go climb or slackline or something and look forward to the weekend where I can maybe take a breather as well and still have plenty of time to think and do a bit of a reset and figure out where I'm at and how I want to move forward and evaluate what I have. And yeah, I don't know if I'll have demo, quote unquote, tomorrow, but I'm feeling the promise right now and feeling the promise may be enough to begin to tell a story and that's exciting. So maybe there is some potential."
+  }
+]
+MY COMPLETION WAS:
+ Based on the data provided, here are the instances where you surfed in the last 7 days formatted as requested:
+
+```json
+[
+  {
+    "date": "Jan 6, 2024",
+    "location": "Swami's",
+    "surfConditions": "Decent waves, enjoyable session with a friend, mild incident with an aggressive surfer",
+    "waveHeight": "Not specified",
+    "stokeLevel": "Generally positive, despite the incident",
+    "documents": [
+      {
+        "hash": "f9d22c33ec1b47a21b5d2cb1916aa61c55151b3d746f8d9506d01e43e16d43d7",
+        "title": "\"Surfing at Swami's: A Mixed Bag of Waves, Encounters, and Harmonies\""
+      }
+    ]
+  },
+  {
+    "date": "Jan 8, 2024",
+    "location": "Swami's",
+    "surfConditions": "Caught a particularly large wave successfully and had an adrenaline-filled session",
+    "waveHeight": "Five or six feet",
+    "stokeLevel": "High adrenaline and satisfaction from the session, not tired",
+    "documents": [
+      {
+        "hash": "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+        "title": "\"Riding the Highs: A Surfing Adventure at Swami's\""
+      }
+    ]
+  },
+  {
+    "date": "Jan 10, 2024",
+    "location": "Unknown (high tide, swampy conditions)",
+    "surfConditions": "Suboptimal with high tide and swampy surf",
+    "waveHeight": "Not specified",
+    "stokeLevel": "Mildly pleased with catching a few good waves despite the conditions",
+    "documents": [
+      {
+        "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+        "title": "\"Making the Most of Suboptimal Surf Conditions\""
+      },
+      {
+        "hash": "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+        "title": "\"Early Morning Surfing Adventure\""
+      }
+    ]
+  }
+]
+```
+
+The data for January 11, 2024, does not explicitly mention a surfing session; therefore, it is not included. The `waveHeight` is not always specified, but based on the descriptions provided, I inferred the level of 'stoke' for each session.

@@ -1,0 +1,98 @@
+[
+  {
+    "prompt": "when have i gone surfing?. Do your best to infer the information based on the data given to you. Can you please put it in the format: [\n  {\n    \"date\": \"string\",\n    \"hash\": \"string\",\n    \"title\": \"string\",\n    \"location\": \"string\",\n    \"duration\": \"string\",\n    \"waveHeight\": \"string\",\n    \"surfConditions\": \"string\",\n    \"stokeLevel\": \"string\",\n    \"stokeEmoji\": \"string\"\n  }\n].\n\nHere is the data: [\n  {\n    \"date\": \"Dec 19, 2023 - 1:08pm\",\n    \"hash\": \"b528ed94fc5c2a2408c60dec42bc4043c41141daa53f5de5a40ae3d0e650829e\",\n    \"title\": \"\\\"Surfing, Near-Misses, and Chance Encounters: A Weekend Adventure\\\"\",\n    \"text\": \"I did surf this morning. I got out of the water at 8.20. I surfed for two hours and 20 minutes. By the time I finished I was extremely tired. Physically. Mentally I still wanted to be there but my body was telling me I had to go. I caught a wave and I messed it up and I lost my board and it almost hit someone and that should not happen again. Afterwards I got out of the water and I met I believe their names were Dan and Jen. Jen really liked my board, wanted to buy it. I had to say no I'm sorry you cannot buy my board but I appreciate that you like it. And they were gonna go on a bike ride, a tandem bike ride next. What a wonderful weekend that is. Love that.\"\n  },\n  {\n    \"date\": \"Dec 19, 2023 - 1:09pm\",\n    \"hash\": \"d24473671c60dff0bb1c3fb03f6c250f00880efa128ebc16d923a5dfe923a2e6\",\n    \"title\": \"\\\"Rough Surf, Bright Outlook\\\"\",\n    \"text\": \"I surfed this morning and it was really, really heavy. Yeah, it was like pretty intense out there, honestly. But another good day. Tried to get barreled. Almost got barreled a few times. Mostly got crushed by the waves, but hey, a good day. Feeling like really energized and amped. Right now, I need to just start knocking things out that are on my plate and make decisions. Money is stressing me out. I want to buy a surger, but I don't know if I can. So, yeah.\"\n  },\n  {\n    \"date\": \"Jan 4, 2024 - 6:51pm\",\n    \"hash\": \"6656f5cd8650fcbf74e3b6da62864bf6572d194fd3bbe58642d0d75fb7481d40\",\n    \"title\": \"\\\"A Day at Swami's: A Lesson Learned\\\"\",\n    \"text\": \"Man, I just wanted to let y'all know that I surfed today and it was not great. I mean, it was okay, it was okay, it was okay. You know, any day that you can surf is probably a pretty decent day, let's be honest. But I got up and out of the house around 6.30, out of the house, actually out of the house around 6.15, and got to Swami's and got together. I had both my boards brought, both my boards, and I looked at the surf and it looked pretty bad. And I decided I wanted to surf still, so I went and surfed. And I decided to take out the longboard and I went leashless, which was a bad move. The surf was pretty mixed up. I got a couple decent waves, but because it was so mixed up, like really the longboard was not the board to be out there with. And eventually a big set comes through and kind of just, you know, just fucks me up, basically. I lost my board one time and then it ended up next to me and I was like, oh my gosh, I got so lucky. So then I was like, I gotta paddle out of this right now so I don't lose my board again. And then sure enough, another big wave comes through and I can't get under it. I can't hold onto my board when the wave is that big sometimes. And I lost it again. I also took a steep drop on a wave, like probably six or seven footer, and I just nosedived my board straight to the bottom of the wave. Not even straight to the bottom of the wave. I was like going the right direction, but like I just, I messed up. And I lost the board again and it was next to me again and I was like, I can't believe I'm getting this lucky. And then sure enough, I'm paddling back out and I lose the board one more time and it goes all the way into shore. And I say, you know what? I shouldn't have gone leashless today. That was lesson learned. So that was the surfing adventure for today. But yeah, there it is.\"\n  },\n  {\n    \"date\": \"Jan 6, 2024 - 8:38am\",\n    \"hash\": \"f9d22c33ec1b47a21b5d2cb1916aa61c55151b3d746f8d9506d01e43e16d43d7\",\n    \"title\": \"\\\"Surfing at Swami's: A Mixed Bag of Waves, Encounters, and Harmonies\\\"\",\n    \"text\": \"I just surfed Swami's, got some decent waves, I wouldn't say they were like out of this world today or anything like that, but it was a fun time, I got like a solid wave to start and then saw Gregory out there and just kind of had a good time, kind of like as per usual caught like a fair number of waves for myself. And yeah, I mean there was one guy getting really aggressive out there which was kind of sad to see, I was like dude, you need to calm down, it's all good, like this is Swami's, people drop in on you, you gotta expect it, also the guy called that he was gonna go left and you were yelling at him for going left, so it's like bro, come on. But yeah, it was a good day and just like enjoying, again saw dolphins as I was getting out of the water and yeah, mostly just chilling and just singing acoustic melodies in my head and out loud the whole time.\"\n  },\n  {\n    \"date\": \"Jan 10, 2024 - 8:03am\",\n    \"hash\": \"557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552\",\n    \"title\": \"\\\"Making the Most of Suboptimal Surf Conditions\\\"\",\n    \"text\": \"Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf.\"\n  },\n  {\n    \"date\": \"Jan 5, 2024 - 8:45am\",\n    \"hash\": \"5510c324e8fd14e3a04671ed78d6886687b0d24863f094fe4a914ae990c2d22d\",\n    \"title\": \"\\\"Spectacular Surf Day: Riding the Waves and Anticipating More to Come\\\"\",\n    \"text\": \"Yo, what a great day of surfing. I looked at the cam this morning and I thought it was going to be absolutely garbage, but I decided to go anyway. I woke up at 5.30, out of bed at 5.37, and started making moves. I was watching the cam, seeing if it was worth it, drove my ass up, got there, looked at the waves, and immediately upon looking at it, you're like, gotta get out there as fast as possible. It looked amazing. It just looked great. I did. I got out there. First wave was me just messing around, feeling it out. Second wave, or third wave, probably the best wave I had today, maybe. Maybe the second best wave. I don't even know. It was a great wave, though. Just cruising through the section, going to the bottom, hitting the top, going to the bottom, hitting the top. Just cruising down the wave and having a good time, big section, kind of closing it out in front of me, barely making it through the section, continuing to ride the wave all the way to the inside, and then paddling my ass back as fast as possible back to the outside. Just so many waves today, and it slowed down towards the end, but then it really, really picked up the last 10 minutes. Some 8, 10-foot bombs came through. I'd say probably closer to the size of 7 or 8, but it was large and in charge. I got one of them for the left, and it was fucking wild. Got a couple lefts, and it was solid, but yeah, just a really fantastic day. Good size, good power. I didn't bring the leash out because I saw the waves, and I was like, you know what? I could go leashless, but this is a bad day to do it. If it's a 4-foot day, probably good. It's like 5, 6-foot day, I would say, at least for most of the waves that I was catching. Probably 5, more like 5, but because those bigger waves come through, you just never know what you're going to get, and if you get stuck on the inside, you're fucked. Also, for me, having the leash is letting me get very aggressive in terms of dropping into waves and just getting comfortable dropping into big waves that I didn't think I could drop into. That is also really great, but yeah, what a way to get the morning started. It's like 2 and a half hours out there, maybe not quite 2 and a half, like 2 hours and 15, but did that without even thinking, and my body barely even started to hurt with all the paddling, which is also sweet, just feeling solid out there. I need to hit Chandler up and see if he wants to—actually, I already hit him up—and see if he wants to freaking go out with me tomorrow, because it's going to be 6 to 8, bro. I'm bringing my longboard, 6 to 8. If it's anything like today, it's going to be fantastic. Dude, I'm just going to bring my longboard, fucking show up at his house, drop the longboard if I have to, and just keep cruising, go to Irvine or some shit after that, because shit was amazing.\"\n  },\n  {\n    \"date\": \"Dec 19, 2023 - 1:07pm\",\n    \"hash\": \"7fb9eab502c35d7084cf716980233b85dbfb92e307ad09b034f3efc717c67d3a\",\n    \"title\": \"\\\"Surfing at Swamys: A Fantastic Morning Experience\\\"\",\n    \"text\": \"I also surfed this morning at Swamys. I was debating between OB and Swamys, and my god, I am so happy I went to Swamys. It was just fantastic out there, to be honest. I had a blast, and I'll go try to check the cams now, actually, to see if I can find myself for my last wave, but yeah, I don't know. Just a really great time out there. I'm really excited to go out tomorrow. I want to get out even earlier than I did this morning from my house. I think I left at 6.05 and got there at 6.25. I got out of the water around 8.49, I think, so a solid two-hour surf and a lot of waves, and I met this European guy. Fuck, what's his name? Not George, but whatever. I'll get his name again next time, but yeah, it was great out there. I can't wait to go tomorrow, get an earlier start, probably leave my house at 5.30 at the latest, really. It's probably going to be the way to go. Get that extra 30 minutes in the dark before sunrise, and hopefully with a lot less people out there, too, and catch some solid waves while I can.\"\n  },\n  {\n    \"date\": \"Jan 10, 2024 - 6:21am\",\n    \"hash\": \"11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34\",\n    \"title\": \"\\\"Early Morning Surfing Adventure\\\"\",\n    \"text\": \"I don't think I mentioned yesterday that I went to Slackline, and it was a solid session. I went to Kate Sessions to do that, and now it is 6.20 in the morning, and I am going to surf. Going up to Swabese, as always, and I'm going to hope that the tide is alright. It's a really, really high tide, but there's offshore winds, so hopefully it looks good. Also, probably less people, because people don't like going when the tide is really high. It's going to make getting into the water pretty tricky, though.\"\n  },\n  {\n    \"date\": \"Jan 8, 2024 - 11:51am\",\n    \"hash\": \"d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9\",\n    \"title\": \"\\\"Riding the Highs: A Surfing Adventure at Swami's\\\"\",\n    \"text\": \"I just got done surfing Swami's god damn what a rush it feels to like go for an hour and a half you know like running into the water trying to surf as many waves as possible and then have to get out like it's probably closer to an hour and 15 just like a lot a lot of rush to be able to do that um dropped in on a bomb there's a few people that like didn't catch it or like ate shit trying to catch the wave and I dropped in and I mean it was a big one it's probably like five or six uh it's nice and I think it looked okay I did like a pretty big cutback kind of thing um pretty slow honestly but all good I feel like I looked okay so that's nice yeah I mean caught a fair number of waves all things considered and I mean I'm not even tired right now like I have just as much energy as I went in with and like I guess we'll just keep trying to carry that um still so much like thinking to do like this agent stuff is not straightforward um some other thoughts but I want to keep those private\"\n  }\n]",
+    "response": [
+      {
+        "date": "Dec 19, 2023",
+        "hash": "b528ed94fc5c2a2408c60dec42bc4043c41141daa53f5de5a40ae3d0e650829e",
+        "title": "Surfing, Near-Misses, and Chance Encounters: A Weekend Adventure",
+        "location": "Unknown",
+        "duration": "2 hours and 20 minutes",
+        "waveHeight": "Unknown",
+        "surfConditions": "Unknown",
+        "stokeLevel": "High then tired",
+        "stokeEmoji": "🏄‍♂️➡️😴"
+      },
+      {
+        "date": "Dec 19, 2023",
+        "hash": "d24473671c60dff0bb1c3fb03f6c250f00880efa128ebc16d923a5dfe923a2e6",
+        "title": "Rough Surf, Bright Outlook",
+        "location": "Unknown",
+        "duration": "Unknown",
+        "waveHeight": "Unknown",
+        "surfConditions": "Intense, Really heavy",
+        "stokeLevel": "Energized and Amped",
+        "stokeEmoji": "🤙"
+      },
+      {
+        "date": "Jan 4, 2024",
+        "hash": "6656f5cd8650fcbf74e3b6da62864bf6572d194fd3bbe58642d0d75fb7481d40",
+        "title": "A Day at Swami's: A Lesson Learned",
+        "location": "Swami's",
+        "duration": "Unknown",
+        "waveHeight": "Unknown",
+        "surfConditions": "Not great, Mixed up.",
+        "stokeLevel": "Mixed feelings. After losing the board, not stoked.",
+        "stokeEmoji": "🏄‍♂️🤔"
+      },
+      {
+        "date": "Jan 6, 2024",
+        "hash": "f9d22c33ec1b47a21b5d2cb1916aa61c55151b3d746f8d9506d01e43e16d43d7",
+        "title": "Surfing at Swami's: A Mixed Bag of Waves, Encounters, and Harmonies",
+        "location": "Swami's",
+        "duration": "Unknown",
+        "waveHeight": "Unknown",
+        "surfConditions": "Not out of this world, fun time",
+        "stokeLevel": "Good",
+        "stokeEmoji": "🎶🏄‍♂️🐬"
+      },
+      {
+        "date": "Jan 5, 2024",
+        "hash": "5510c324e8fd14e3a04671ed78d6886687b0d24863f094fe4a914ae990c2d22d",
+        "title": "Spectacular Surf Day: Riding the Waves and Anticipating More to Come",
+        "location": "Unknown",
+        "duration": "About 2 hours and 15 minutes",
+        "waveHeight": "5 to 7 or 8 feet",
+        "surfConditions": "Good size, good power",
+        "stokeLevel": "Fantastic",
+        "stokeEmoji": "😄🌊"
+      },
+      {
+        "date": "Dec 19, 2023",
+        "hash": "7fb9eab502c35d7084cf716980233b85dbfb92e307ad09b034f3efc717c67d3a",
+        "title": "Surfing at Swami's: A Fantastic Morning Experience",
+        "location": "Swami's",
+        "duration": "Approximately 2 hours and 24 minutes",
+        "waveHeight": "Fantastic",
+        "surfConditions": "Blissful",
+        "stokeLevel": "Excited",
+        "stokeEmoji": "🌅🤙"
+      },
+      {
+        "date": "Jan 10, 2024",
+        "hashes": [
+          "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+          "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552"
+        ],
+        "title": "Early Morning Surfing Adventure",
+        "location": "Swami's",
+        "duration": "Unknown",
+        "waveHeight": "High tide, affected by offshore winds",
+        "surfConditions": "Swampy, High tide. Offshore winds helped",
+        "stokeLevel": "Alright",
+        "stokeEmoji": "😐"
+      },
+      {
+        "date": "Jan 8, 2024",
+        "hash": "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+        "title": "Riding the Highs: A Surfing Adventure at Swami's",
+        "location": "Swami's",
+        "duration": "Approximately 1 hour and 15 minutes",
+        "waveHeight": "Around 5 or 6 feet",
+        "surfConditions": "Probably pretty good",
+        "stokeLevel": "High and Energetic",
+        "stokeEmoji": "⏩🏄‍♂️"
+      }
+    ]
+  }
+]

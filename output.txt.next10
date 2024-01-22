@@ -1,0 +1,263 @@
+GENERATED CODE COMPLETION:
+ ```javascript
+const referenceHash = '7bc043bc0c7d87138856b4308215f014c5b45bef748f01b39e59b52184f25899';
+const referenceDocument = data.find(d => d.hash === referenceHash);
+const result = [];
+
+if (referenceDocument) {
+    const referenceTime = referenceDocument.created;
+
+    const filteredDocuments = data
+        .filter(d => d.created < referenceTime)
+        .sort((a, b) => b.created - a.created) // Sorting newest to oldest
+        .slice(0, 10);
+
+    result.push(...filteredDocuments);
+}
+result;
+```
+GENERATED KEYWORD COMPLETION:
+ []
+
+GENERATED KEYWORDS:
+ []
+KEYWORD DATA:
+ [
+  {
+    created: 1704902588,
+    date: "Jan 10, 2024 - 8:03am",
+    hash: "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    title: "\"Making the Most of Suboptimal Surf Conditions\"",
+    summary: "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    text: "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  },
+  {
+    created: 1704896517,
+    date: "Jan 10, 2024 - 6:21am",
+    hash: "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+    title: "\"Early Morning Surfing Adventure\"",
+    summary: "Yesterday, I had a great slackline session at Kate Sessions. Now, at 6:20 AM, I'm preparing to go surfing at Swabese, hoping for favorable tide conditions. Despite the really high tide and the potential difficulty of entering the water, the offshore winds could make for good surfing. Additionally, the high tide may reduce the number of people in the water, which could be a plus.",
+    text: "I don't think I mentioned yesterday that I went to Slackline, and it was a solid session. I went to Kate Sessions to do that, and now it is 6.20 in the morning, and I am going to surf. Going up to Swabese, as always, and I'm going to hope that the tide is alright. It's a really, really high tide, but there's offshore winds, so hopefully it looks good. Also, probably less people, because people don't like going when the tide is really high. It's going to make getting into the water pretty tricky, though."
+  },
+  {
+    created: 1704843719,
+    date: "Jan 9, 2024 - 3:41pm",
+    hash: "f61ec0616f138d8c886b377dcd84bd0646f1712470b2f2a5676d67a21f80ee48",
+    title: "\"Synchronicity and Support: A Collaborative Journey with Scott\"",
+    summary: "The writer expresses excitement about Scott pursuing similar questions and paths, indicating a shared interest and alignment in goals. The writer's primary focus is to provide Scott with the necessary tools to create something exceptional, highlighting a collaborative and supportive approach. The writer is eager to enable exploration in this area with Scott and others like Charuz, showcasing an inclusive and energetic attitude towards collective innovation. The surge of energy and anticipation is so high that the writer is off to try slacklining, open to the possibility of company or a solo adventure.",
+    text: "One thing that I'm pretty psyched about is Scott seems to be going down a lot of the same paths and questions as me, and just, yeah, I mean, again, it's just like another person who wants to have this thing and use it and is aligned and, you know, for me, I'm like, how do I provide you the tools to build something amazing? That's the mentality that I want to come into it with because I don't know what the most amazing thing is going to be, but I think, like, I know Scott has so many good ideas and I want to provide him tools to make something great and that's kind of exactly where I'm at, and I'm just stoked that he wants to explore this area and hopefully I can get something into his hands and we can do that exploration, and, you know, with Charuz as well and whoever else wants to participate, but, yeah, super, super interesting, super psyched, so much energy right now, I'm about to go slackline, we'll see how that goes, maybe a person shows up, maybe they don't, but, yeah, holy crap, so much energy and then oh, boy."
+  },
+  {
+    created: 1704835640,
+    date: "Jan 9, 2024 - 1:27pm",
+    hash: "a3e10e657793cded3db387afbfe41a2d962ed7cf7f6be90511bb7761e0e5d3ba",
+    title: "\"An Exciting Plan: Watching the Latest Studio Ghibli Film with Chandler\"",
+    summary: "One of my goals is to watch the latest Studio Ghibli film alongside Chandler. This shared activity is something I'm looking forward to. Watching a new Studio Ghibli movie is on my to-do list, and I plan to do it with Chandler. Enjoying the newest release from Studio Ghibli in the company of Chandler would be a delightful experience.",
+    text: "One of the things that I'd like to do is watch the new Studio Ghibli movie with Chandler."
+  },
+  {
+    created: 1704813770,
+    date: "Jan 9, 2024 - 7:22am",
+    hash: "1468820492c08e37b24827bd2223d9cd2e6f55da7a7efdeddea1a92f593767f9",
+    title: "\"Managing Data Progress and Possibilities\"",
+    summary: "I've realized that I don't need immediate answers and having a progress update by Friday, such as a screenshot, will suffice to indicate we're on track. By Friday, if we haven't achieved this, we'll need to reassess our progress and consider whether we are closer to our goal. The possible expansion to different data sources is a concern, and I'm contemplating an 'agential' architecture where agents manage different types of data. To effectively answer questions with available data, we might use a system that assembles JSON objects, but how to handle various embedding spaces for different data types like audio or text remains uncertain.",
+    text: "One thing that I just realized for myself is I don't need to have the answer to the question today. And if I could have the answer to the question by Friday, my original goal, that would be good enough. I don't need to have an MVP by Friday. I just want to have a screenshot by Friday. If I can have that, then I think we are moving towards something. If by Friday we do not have it, then that's a different issue. I guess at that point, we have to reevaluate based on where we're at. Are we any closer? Are we in the same place? And this is even before extending out data sources, which is something I'm mildly concerned about, how to make that really good and possible. I think given the framework and structure of what I have currently, it should be possible if we can answer the questions in this context, but it also may not be. And that is something that I'm going to have to think about and probably contend with in some way. And perhaps this is where I need to think about some agential type architecture where we kind of have agents for effectively kinds of data or something like that. I'm not sure. Where if you need to collect or collate some data, basically they are the ones containing the knowledge of the structures, something to that degree. Basically, how would you access those kind of pieces of information? And again, maybe the pipeline of assembling JSON objects is kind of the way that you do that, of like, okay, if I had this JSON object and I had that JSON object, I can answer this question effectively. Maybe that's a way of going about it. And maybe that's something to try in the sense like having an audio retriever and what data is embedded, what those embeddings mean, you know, blah, blah, blah. And maybe that's the same for, say, text messages or journals or whatever. Maybe those are in the same embedding spaces or maybe they're in different embedding spaces. That I'm not quite sure about yet. I suspect sometimes you'll want them to be in the same embedding space and I suspect other times you will not. So this is just like my first little attempt at thinking about this."
+  },
+  {
+    created: 1704776292,
+    date: "Jan 8, 2024 - 8:58pm",
+    hash: "906008677d168d909edae454ad9ad38bb78ea3ede94645738faabb572032bc4c",
+    title: "\"Exploring the Potential of a JavaScript Agent\"",
+    summary: "I need to create a simple JavaScript agent, possibly inspired by Simon Willison's blog, to see how it performs compared to existing solutions like Microsoft's. I'm considering using LangChain, but I'm also thinking about the agent's requirements, including tasks such as recursive summarization, which are well-suited for GPT-3 and could be more cost-effective with a local model. Additionally, I'm contemplating whether directly prompting the agent with instructions will be effective for its operation. On a different note, I observed a driver on the freeway driving at an excessively slow speed of 35 mph, which is concerning.",
+    text: "One of the things that I think I need to do tomorrow is implement my own agent. Something probably very basic and referring to I believe it's Simon Willison's blog. Just something stupidly simple in JavaScript and seeing what happens because whatever currently is there I can use Microsoft's thing. I am hesitant to use LangChain but there's got to be something there and I think maybe I do need to enumerate more or less what I expect of the agent. What steps that it might want to do to get there and also what kinds of things generally need to happen like recursive summarization and that kind of thing. That is a very easy GPT-3 task and possibly even a local model which would save on compute significantly. And the other thing that I'm wondering is do I just fucking prompt it in an array to get my answer of I know exactly what it needs to do so I'm just going to tell it and it can figure it out. That guy is going really slow on the freeway. Unnecessarily slow. That was going 35. That's not okay."
+  },
+  {
+    created: 1704754260,
+    date: "Jan 8, 2024 - 2:51pm",
+    hash: "95d6f4aca8492b1bb235529a81dab1b145eaef23ee8eb0a1132ecc9b0ca54665",
+    title: "\"Unveiling the Depths of Understanding\"",
+    summary: "I want to get to know you better. I want to get to know you better. I want to get to know you better. I want to get to know you better.",
+    text: "I want to get to know you better. I want to get to know you better. I want to get to know you better."
+  },
+  {
+    created: 1704753683,
+    date: "Jan 8, 2024 - 2:41pm",
+    hash: "9e5c16957095329b30282743d902fc48829d07fd0021d3d58a74a034102a4204",
+    title: "\"AI for Friendship: Building Community and Creativity\"",
+    summary: "AI for Friendship is gaining interest, fueling a creative desire to establish an environment akin to an art studio filled with engaging items. Dave proposed a concept, \"14 days of 13 bad posts,\" to clear out unproductive thoughts, highlighting the importance of community building as seen in Seth Godin's work and the importance of presentation. The tool in question has the potential to be profitable, with the expectation that successful users will share their strategies, thereby encouraging more effective use by others. An idea for a social game revolves around the concept of mutual discovery between participants, with the flexibility for users to engage with the system simply or contribute to its development.",
+    text: "Reviewing some of the notes from my conversation with Kristen and Dave earlier, it sounds like AI for Friendship is resonating and that there's a creative scene wanting to emerge, which is super cool. And building something like an art studio with toys in it, all of this kind of thing, makes tons of sense. A lot of the relational stuff that we've been working on. One of the things that I really liked that Dave said, it was like 14 days of 13 bad posts. Just an idea he had and kind of want to try it because it sounds like a good way to flush some crappy thinking out in some way. But also, it's just interesting as a concept. And yeah, I guess that Dave also, I believe, pointing out some of the Seth Godin work with him building communities and how people want to be part of it and that kind of thing, as well as just like packaging is important. I'm learning that I want to lean into nerds. One of the things that I said that I think is important is that if this tool is successful, someone will make really good money off of it and that person will share how they did it and that will get other people using it effectively. And the final kind of thing that I'm really, really curious about is making a social game where success is really simple. This is something that Dave suggested and the thing that immediately came to mind was we are coming together because we want to discover something about someone else and ourselves. And that's kind of the container and maybe being able to share it at the end of whatever period of time it is. And I guess going along with that is playing with this system, trying to break it. You can show up and just use it and that's about all it takes. Or you could try to build something on top of it or contribute to the core code base or whatever it is."
+  },
+  {
+    created: 1704743481,
+    date: "Jan 8, 2024 - 11:51am",
+    hash: "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+    title: "\"Riding the Highs: A Surfing Adventure at Swami's\"",
+    summary: "I just finished an exhilarating hour and a half session of surfing at Swami's, encountering a rush from catching as many waves as possible within that time frame. During the session, I managed to catch a particularly large wave—a \"bomb\"—which others struggled with but I successfully navigated, performing a decent cutback despite it being somewhat slow. Despite the physical demands of surfing, I still have plenty of energy left and feel good about the experience. While surfing brings a sense of fulfillment, I'm also preoccupied with off-shore matters like agency issues and have other thoughts that I'd like to keep to myself.",
+    text: "I just got done surfing Swami's god damn what a rush it feels to like go for an hour and a half you know like running into the water trying to surf as many waves as possible and then have to get out like it's probably closer to an hour and 15 just like a lot a lot of rush to be able to do that um dropped in on a bomb there's a few people that like didn't catch it or like ate shit trying to catch the wave and I dropped in and I mean it was a big one it's probably like five or six uh it's nice and I think it looked okay I did like a pretty big cutback kind of thing um pretty slow honestly but all good I feel like I looked okay so that's nice yeah I mean caught a fair number of waves all things considered and I mean I'm not even tired right now like I have just as much energy as I went in with and like I guess we'll just keep trying to carry that um still so much like thinking to do like this agent stuff is not straightforward um some other thoughts but I want to keep those private"
+  },
+  {
+    created: 1704735377,
+    date: "Jan 8, 2024 - 9:36am",
+    hash: "9a9b0450b3ca6a85fabf9aa0a9917c62efdaf2eb0fef2b59a03753c56c6f5e98",
+    title: "\"Building a Minimum Viable Product (MVP) for Effective Data Querying and Accessibility\"",
+    summary: "The primary goal is to establish a minimum viable product (MVP) that can effectively answer questions, albeit not necessarily all, and is accessible to a small group of users, including Chandler and myself. The MVP should include basic multimodal functionality, which is considered a critical element of the system. Another key aspect is the robustness of the deployment process, with the ideal scenario being an easy and cost-efficient method like one-click deployment, although initial manual setup may be acceptable. The final step is ensuring the MVP can effectively and powerfully query across different datasets, enhancing its utility as a tool for data exploration and thought.",
+    text: "Okay, the thing that I'm thinking about most is what is MVP, effectively, and specifically meaning going to try to get 25 or 100 people or even spinning it up for Chandler and I. Basically using that as the metric of that's where we need to get to. I feel like there's really just a couple of things. One is like nailing the retrieval part and getting it at least to work for some questions. It doesn't have to work for every question, but if it can work for some, that'd be great. I also very much would like it to be very minimally multimodal. Basic multimodal capability seems very important. I don't know if that even is an MVP, but I would ideally like it to be. And then the next big thing is robustness, effectively being able to deploy this for other people and doing so in a way that's very easy and cheap, ideally, maybe even one-click deploy that someone could do or something else. And even if I have to do that initially, whatever, but there definitely needs to be like some level of that and onboarding to figure out. And I think that's going to be the last step because it doesn't make sense unless the other things work. We already know that we can query across people. It's like no issue. That's totally viable and doable. The problem is making those queries really, really effective. So if we can make queries effective and ideally have more data sources to make it even more robust and powerful and interesting, that would be fantastic. I personally want it just for like minimal viable data and exploration and making that easy for someone else to do. Again, tools for thought."
+  }
+]
+MY PROMPT WAS:
+ 
+can you get me the latest 10 posts which are older than 7bc043bc0c7d87138856b4308215f014c5b45bef748f01b39e59b52184f25899?. Do your best to infer the information based on the data given to you. Can you please put it in the format: [
+  {
+    "hash": "string",
+    "title": "string",
+    "summary": "string"
+  }
+]
+
+Here is the data: [
+  {
+    "created": 1704902588,
+    "date": "Jan 10, 2024 - 8:03am",
+    "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    "title": "\"Making the Most of Suboptimal Surf Conditions\"",
+    "summary": "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves.",
+    "text": "Went surfing. Yeah, the high tide was not good. There's maybe five of us out in total, surfing. And one guy brought out a shortboard, which is probably the funniest thing that I've seen in a bit, for waves like that. I was like, dude, I don't even have a long enough board. So, it was funny. But, I mean, it was alright. Got a couple good ones. It was mostly just kind of swampy, swampy surf."
+  },
+  {
+    "created": 1704896517,
+    "date": "Jan 10, 2024 - 6:21am",
+    "hash": "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+    "title": "\"Early Morning Surfing Adventure\"",
+    "summary": "Yesterday, I had a great slackline session at Kate Sessions. Now, at 6:20 AM, I'm preparing to go surfing at Swabese, hoping for favorable tide conditions. Despite the really high tide and the potential difficulty of entering the water, the offshore winds could make for good surfing. Additionally, the high tide may reduce the number of people in the water, which could be a plus.",
+    "text": "I don't think I mentioned yesterday that I went to Slackline, and it was a solid session. I went to Kate Sessions to do that, and now it is 6.20 in the morning, and I am going to surf. Going up to Swabese, as always, and I'm going to hope that the tide is alright. It's a really, really high tide, but there's offshore winds, so hopefully it looks good. Also, probably less people, because people don't like going when the tide is really high. It's going to make getting into the water pretty tricky, though."
+  },
+  {
+    "created": 1704843719,
+    "date": "Jan 9, 2024 - 3:41pm",
+    "hash": "f61ec0616f138d8c886b377dcd84bd0646f1712470b2f2a5676d67a21f80ee48",
+    "title": "\"Synchronicity and Support: A Collaborative Journey with Scott\"",
+    "summary": "The writer expresses excitement about Scott pursuing similar questions and paths, indicating a shared interest and alignment in goals. The writer's primary focus is to provide Scott with the necessary tools to create something exceptional, highlighting a collaborative and supportive approach. The writer is eager to enable exploration in this area with Scott and others like Charuz, showcasing an inclusive and energetic attitude towards collective innovation. The surge of energy and anticipation is so high that the writer is off to try slacklining, open to the possibility of company or a solo adventure.",
+    "text": "One thing that I'm pretty psyched about is Scott seems to be going down a lot of the same paths and questions as me, and just, yeah, I mean, again, it's just like another person who wants to have this thing and use it and is aligned and, you know, for me, I'm like, how do I provide you the tools to build something amazing? That's the mentality that I want to come into it with because I don't know what the most amazing thing is going to be, but I think, like, I know Scott has so many good ideas and I want to provide him tools to make something great and that's kind of exactly where I'm at, and I'm just stoked that he wants to explore this area and hopefully I can get something into his hands and we can do that exploration, and, you know, with Charuz as well and whoever else wants to participate, but, yeah, super, super interesting, super psyched, so much energy right now, I'm about to go slackline, we'll see how that goes, maybe a person shows up, maybe they don't, but, yeah, holy crap, so much energy and then oh, boy."
+  },
+  {
+    "created": 1704835640,
+    "date": "Jan 9, 2024 - 1:27pm",
+    "hash": "a3e10e657793cded3db387afbfe41a2d962ed7cf7f6be90511bb7761e0e5d3ba",
+    "title": "\"An Exciting Plan: Watching the Latest Studio Ghibli Film with Chandler\"",
+    "summary": "One of my goals is to watch the latest Studio Ghibli film alongside Chandler. This shared activity is something I'm looking forward to. Watching a new Studio Ghibli movie is on my to-do list, and I plan to do it with Chandler. Enjoying the newest release from Studio Ghibli in the company of Chandler would be a delightful experience.",
+    "text": "One of the things that I'd like to do is watch the new Studio Ghibli movie with Chandler."
+  },
+  {
+    "created": 1704813770,
+    "date": "Jan 9, 2024 - 7:22am",
+    "hash": "1468820492c08e37b24827bd2223d9cd2e6f55da7a7efdeddea1a92f593767f9",
+    "title": "\"Managing Data Progress and Possibilities\"",
+    "summary": "I've realized that I don't need immediate answers and having a progress update by Friday, such as a screenshot, will suffice to indicate we're on track. By Friday, if we haven't achieved this, we'll need to reassess our progress and consider whether we are closer to our goal. The possible expansion to different data sources is a concern, and I'm contemplating an 'agential' architecture where agents manage different types of data. To effectively answer questions with available data, we might use a system that assembles JSON objects, but how to handle various embedding spaces for different data types like audio or text remains uncertain.",
+    "text": "One thing that I just realized for myself is I don't need to have the answer to the question today. And if I could have the answer to the question by Friday, my original goal, that would be good enough. I don't need to have an MVP by Friday. I just want to have a screenshot by Friday. If I can have that, then I think we are moving towards something. If by Friday we do not have it, then that's a different issue. I guess at that point, we have to reevaluate based on where we're at. Are we any closer? Are we in the same place? And this is even before extending out data sources, which is something I'm mildly concerned about, how to make that really good and possible. I think given the framework and structure of what I have currently, it should be possible if we can answer the questions in this context, but it also may not be. And that is something that I'm going to have to think about and probably contend with in some way. And perhaps this is where I need to think about some agential type architecture where we kind of have agents for effectively kinds of data or something like that. I'm not sure. Where if you need to collect or collate some data, basically they are the ones containing the knowledge of the structures, something to that degree. Basically, how would you access those kind of pieces of information? And again, maybe the pipeline of assembling JSON objects is kind of the way that you do that, of like, okay, if I had this JSON object and I had that JSON object, I can answer this question effectively. Maybe that's a way of going about it. And maybe that's something to try in the sense like having an audio retriever and what data is embedded, what those embeddings mean, you know, blah, blah, blah. And maybe that's the same for, say, text messages or journals or whatever. Maybe those are in the same embedding spaces or maybe they're in different embedding spaces. That I'm not quite sure about yet. I suspect sometimes you'll want them to be in the same embedding space and I suspect other times you will not. So this is just like my first little attempt at thinking about this."
+  },
+  {
+    "created": 1704776292,
+    "date": "Jan 8, 2024 - 8:58pm",
+    "hash": "906008677d168d909edae454ad9ad38bb78ea3ede94645738faabb572032bc4c",
+    "title": "\"Exploring the Potential of a JavaScript Agent\"",
+    "summary": "I need to create a simple JavaScript agent, possibly inspired by Simon Willison's blog, to see how it performs compared to existing solutions like Microsoft's. I'm considering using LangChain, but I'm also thinking about the agent's requirements, including tasks such as recursive summarization, which are well-suited for GPT-3 and could be more cost-effective with a local model. Additionally, I'm contemplating whether directly prompting the agent with instructions will be effective for its operation. On a different note, I observed a driver on the freeway driving at an excessively slow speed of 35 mph, which is concerning.",
+    "text": "One of the things that I think I need to do tomorrow is implement my own agent. Something probably very basic and referring to I believe it's Simon Willison's blog. Just something stupidly simple in JavaScript and seeing what happens because whatever currently is there I can use Microsoft's thing. I am hesitant to use LangChain but there's got to be something there and I think maybe I do need to enumerate more or less what I expect of the agent. What steps that it might want to do to get there and also what kinds of things generally need to happen like recursive summarization and that kind of thing. That is a very easy GPT-3 task and possibly even a local model which would save on compute significantly. And the other thing that I'm wondering is do I just fucking prompt it in an array to get my answer of I know exactly what it needs to do so I'm just going to tell it and it can figure it out. That guy is going really slow on the freeway. Unnecessarily slow. That was going 35. That's not okay."
+  },
+  {
+    "created": 1704754260,
+    "date": "Jan 8, 2024 - 2:51pm",
+    "hash": "95d6f4aca8492b1bb235529a81dab1b145eaef23ee8eb0a1132ecc9b0ca54665",
+    "title": "\"Unveiling the Depths of Understanding\"",
+    "summary": "I want to get to know you better. I want to get to know you better. I want to get to know you better. I want to get to know you better.",
+    "text": "I want to get to know you better. I want to get to know you better. I want to get to know you better."
+  },
+  {
+    "created": 1704753683,
+    "date": "Jan 8, 2024 - 2:41pm",
+    "hash": "9e5c16957095329b30282743d902fc48829d07fd0021d3d58a74a034102a4204",
+    "title": "\"AI for Friendship: Building Community and Creativity\"",
+    "summary": "AI for Friendship is gaining interest, fueling a creative desire to establish an environment akin to an art studio filled with engaging items. Dave proposed a concept, \"14 days of 13 bad posts,\" to clear out unproductive thoughts, highlighting the importance of community building as seen in Seth Godin's work and the importance of presentation. The tool in question has the potential to be profitable, with the expectation that successful users will share their strategies, thereby encouraging more effective use by others. An idea for a social game revolves around the concept of mutual discovery between participants, with the flexibility for users to engage with the system simply or contribute to its development.",
+    "text": "Reviewing some of the notes from my conversation with Kristen and Dave earlier, it sounds like AI for Friendship is resonating and that there's a creative scene wanting to emerge, which is super cool. And building something like an art studio with toys in it, all of this kind of thing, makes tons of sense. A lot of the relational stuff that we've been working on. One of the things that I really liked that Dave said, it was like 14 days of 13 bad posts. Just an idea he had and kind of want to try it because it sounds like a good way to flush some crappy thinking out in some way. But also, it's just interesting as a concept. And yeah, I guess that Dave also, I believe, pointing out some of the Seth Godin work with him building communities and how people want to be part of it and that kind of thing, as well as just like packaging is important. I'm learning that I want to lean into nerds. One of the things that I said that I think is important is that if this tool is successful, someone will make really good money off of it and that person will share how they did it and that will get other people using it effectively. And the final kind of thing that I'm really, really curious about is making a social game where success is really simple. This is something that Dave suggested and the thing that immediately came to mind was we are coming together because we want to discover something about someone else and ourselves. And that's kind of the container and maybe being able to share it at the end of whatever period of time it is. And I guess going along with that is playing with this system, trying to break it. You can show up and just use it and that's about all it takes. Or you could try to build something on top of it or contribute to the core code base or whatever it is."
+  },
+  {
+    "created": 1704743481,
+    "date": "Jan 8, 2024 - 11:51am",
+    "hash": "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+    "title": "\"Riding the Highs: A Surfing Adventure at Swami's\"",
+    "summary": "I just finished an exhilarating hour and a half session of surfing at Swami's, encountering a rush from catching as many waves as possible within that time frame. During the session, I managed to catch a particularly large wave—a \"bomb\"—which others struggled with but I successfully navigated, performing a decent cutback despite it being somewhat slow. Despite the physical demands of surfing, I still have plenty of energy left and feel good about the experience. While surfing brings a sense of fulfillment, I'm also preoccupied with off-shore matters like agency issues and have other thoughts that I'd like to keep to myself.",
+    "text": "I just got done surfing Swami's god damn what a rush it feels to like go for an hour and a half you know like running into the water trying to surf as many waves as possible and then have to get out like it's probably closer to an hour and 15 just like a lot a lot of rush to be able to do that um dropped in on a bomb there's a few people that like didn't catch it or like ate shit trying to catch the wave and I dropped in and I mean it was a big one it's probably like five or six uh it's nice and I think it looked okay I did like a pretty big cutback kind of thing um pretty slow honestly but all good I feel like I looked okay so that's nice yeah I mean caught a fair number of waves all things considered and I mean I'm not even tired right now like I have just as much energy as I went in with and like I guess we'll just keep trying to carry that um still so much like thinking to do like this agent stuff is not straightforward um some other thoughts but I want to keep those private"
+  },
+  {
+    "created": 1704735377,
+    "date": "Jan 8, 2024 - 9:36am",
+    "hash": "9a9b0450b3ca6a85fabf9aa0a9917c62efdaf2eb0fef2b59a03753c56c6f5e98",
+    "title": "\"Building a Minimum Viable Product (MVP) for Effective Data Querying and Accessibility\"",
+    "summary": "The primary goal is to establish a minimum viable product (MVP) that can effectively answer questions, albeit not necessarily all, and is accessible to a small group of users, including Chandler and myself. The MVP should include basic multimodal functionality, which is considered a critical element of the system. Another key aspect is the robustness of the deployment process, with the ideal scenario being an easy and cost-efficient method like one-click deployment, although initial manual setup may be acceptable. The final step is ensuring the MVP can effectively and powerfully query across different datasets, enhancing its utility as a tool for data exploration and thought.",
+    "text": "Okay, the thing that I'm thinking about most is what is MVP, effectively, and specifically meaning going to try to get 25 or 100 people or even spinning it up for Chandler and I. Basically using that as the metric of that's where we need to get to. I feel like there's really just a couple of things. One is like nailing the retrieval part and getting it at least to work for some questions. It doesn't have to work for every question, but if it can work for some, that'd be great. I also very much would like it to be very minimally multimodal. Basic multimodal capability seems very important. I don't know if that even is an MVP, but I would ideally like it to be. And then the next big thing is robustness, effectively being able to deploy this for other people and doing so in a way that's very easy and cheap, ideally, maybe even one-click deploy that someone could do or something else. And even if I have to do that initially, whatever, but there definitely needs to be like some level of that and onboarding to figure out. And I think that's going to be the last step because it doesn't make sense unless the other things work. We already know that we can query across people. It's like no issue. That's totally viable and doable. The problem is making those queries really, really effective. So if we can make queries effective and ideally have more data sources to make it even more robust and powerful and interesting, that would be fantastic. I personally want it just for like minimal viable data and exploration and making that easy for someone else to do. Again, tools for thought."
+  }
+]
+MY COMPLETION WAS:
+ To retrieve the latest 10 posts that are older than the hash `7bc043bc0c7d87138856b4308215f014c5b45bef748f01b39e59b52184f25899`, we need to compare the given hash with the hashes in the dataset. Since SHA-256 hashes are not directly comparable in terms of time, we will assume "older" refers to the order in which the hashes are listed in the data array above.
+
+However, based on the information provided, it appears there is no reference hash `7bc043bc0c7d87138856b4308215f014c5b45bef748f01b39e59b52184f25899`, in the data given. Given that we cannot determine which posts are "older", I cannot filter them based on that criteria.
+
+If these hashes represented a commit history or another sequentially based system, we would find the provided hash and list the hashes that came before it. Hypothetically, if the hash in question were the hash of the latest item in your data (the one with the `created` time `1704902588`), then the 10 posts "older" than it would be the earlier entries. But without further context or a timestamp or sequence number comparison, such assumptions may not be correct.
+
+If you're looking for the latest ten posts from the data provided regardless of the reference hash, they would be the ones with the created timestamps from `1704813770` to `1704902588`. Here is how they would be extracted in the requested format:
+
+```json
+[
+  {
+    "hash": "1468820492c08e37b24827bd2223d9cd2e6f55da7a7efdeddea1a92f593767f9",
+    "title": "\"Managing Data Progress and Possibilities\"",
+    "summary": "I've realized that I don't need immediate answers and having a progress update by Friday, such as a screenshot, will suffice to indicate we're on track. By Friday, if we haven't achieved this, we'll need to reassess our progress and consider whether we are closer to our goal. The possible expansion to different data sources is a concern, and I'm contemplating an 'agential' architecture where agents manage different types of data. To effectively answer questions with available data, we might use a system that assembles JSON objects, but how to handle various embedding spaces for different data types like audio or text remains uncertain."
+  },
+  {
+    "hash": "906008677d168d909edae454ad9ad38bb78ea3ede94645738faabb572032bc4c",
+    "title": "\"Exploring the Potential of a JavaScript Agent\"",
+    "summary": "I need to create a simple JavaScript agent, possibly inspired by Simon Willison's blog, to see how it performs compared to existing solutions like Microsoft's. I'm considering using LangChain, but I'm also thinking about the agent's requirements, including tasks such as recursive summarization, which are well-suited for GPT-3 and could be more cost-effective with a local model. Additionally, I'm contemplating whether directly prompting the agent with instructions will be effective for its operation. On a different note, I observed a driver on the freeway driving at an excessively slow speed of 35 mph, which is concerning."
+  },
+  {
+    "hash": "95d6f4aca8492b1bb235529a81dab1b145eaef23ee8eb0a1132ecc9b0ca54665",
+    "title": "\"Unveiling the Depths of Understanding\"",
+    "summary": "I want to get to know you better. I want to get to know you better. I want to get to know you better. I want to get to know you better."
+  },
+  {
+    "hash": "9e5c16957095329b30282743d902fc48829d07fd0021d3d58a74a034102a4204",
+    "title": "\"AI for Friendship: Building Community and Creativity\"",
+    "summary": "AI for Friendship is gaining interest, fueling a creative desire to establish an environment akin to an art studio filled with engaging items. Dave proposed a concept, \"14 days of 13 bad posts,\" to clear out unproductive thoughts, highlighting the importance of community building as seen in Seth Godin's work and the importance of presentation. The tool in question has the potential to be profitable, with the expectation that successful users will share their strategies, thereby encouraging more effective use by others. An idea for a social game revolves around the concept of mutual discovery between participants, with the flexibility for users to engage with the system simply or contribute to its development."
+  },
+  {
+    "hash": "d1a641db05e3e87e84cf8fe0aff87e537775f2960401b6ea3624ef80500230a9",
+    "title": "\"Riding the Highs: A Surfing Adventure at Swami's\"",
+    "summary": "I just finished an exhilarating hour and a half session of surfing at Swami's, encountering a rush from catching as many waves as possible within that time frame. During the session, I managed to catch a particularly large wave—a \"bomb\"—which others struggled with but I successfully navigated, performing a decent cutback despite it being somewhat slow. Despite the physical demands of surfing, I still have plenty of energy left and feel good about the experience. While surfing brings a sense of fulfillment, I'm also preoccupied with off-shore matters like agency issues and have other thoughts that I'd like to keep to myself."
+  },
+  {
+    "hash": "9a9b0450b3ca6a85fabf9aa0a9917c62efdaf2eb0fef2b59a03753c56c6f5e98",
+    "title": "\"Building a Minimum Viable Product (MVP) for Effective Data Querying and Accessibility\"",
+    "summary": "The primary goal is to establish a minimum viable product (MVP) that can effectively answer questions, albeit not necessarily all, and is accessible to a small group of users, including Chandler and myself. The MVP should include basic multimodal functionality, which is considered a critical element of the system. Another key aspect is the robustness of the deployment process, with the ideal scenario being an easy and cost-efficient method like one-click deployment, although initial manual setup may be acceptable. The final step is ensuring the MVP can effectively and powerfully query across different datasets, enhancing its utility as a tool for data exploration and thought."
+  },
+  {
+    "hash": "557f6c5c6bcb2eb650d00d25cb6a8f8424006e42114fe402adc16fbe82987552",
+    "title": "\"Making the Most of Suboptimal Surf Conditions\"",
+    "summary": "I went surfing despite the high tide not being ideal, and there were around five of us in the water. One surfer amusingly brought a shortboard, which seemed unsuitable for the conditions. I realized even my own board wasn't long enough for the waves we encountered. Despite the less-than-perfect conditions, with swampy surf, I still managed to catch a few good waves."
+  },
+  {
+    "hash": "11789e2d600399d2c92e9b0b798dd5e9617f5d551a18a13ecec7c19a5183dd34",
+    "title": "\"Early Morning Surfing Adventure\"",
+    "summary": "Yesterday, I had a great slackline session at Kate Sessions. Now, at 6:20 AM, I'm preparing to go surfing at Swabese, hoping for favorable tide conditions. Despite the really high tide and the potential difficulty of entering the water, the offshore winds could make for good surfing. Additionally, the high tide may reduce the number of people in the water, which could be a plus."
+  },
+  {
+    "hash": "f61ec0616f138d8c886b377dcd84bd0646f1712470b2f2a5676d67a21f80ee48",
+    "title": "\"Synchronicity and Support: A Collaborative Journey with Scott\"",
+    "summary": "The writer expresses excitement about Scott pursuing similar questions and paths, indicating a shared interest and alignment in goals. The writer's primary focus is to provide Scott with the necessary tools to create something exceptional, highlighting a collaborative and supportive approach. The writer is eager to enable exploration in this area with Scott and others like Charuz, showcasing an inclusive and energetic attitude towards collective innovation. The surge of energy and anticipation is so high that the writer is off to try slacklining, open to the possibility of company or a solo adventure."
+  },
+  {
+    "hash": "a3e10e657793cded3db387afbfe41a2d962ed7cf7f6be90511bb7761e0e5d3ba",
+    "title": "\"An Exciting Plan: Watching the Latest Studio Ghibli Film with Chandler\"",
+    "summary": "One of my goals is to watch the latest Studio Ghibli film alongside Chandler. This shared activity is something I'm looking forward to. Watching a new Studio Ghibli movie is on my to-do list, and I plan to do it with Chandler. Enjoying the newest release from Studio Ghibli in the company of Chandler would be a delightful experience."
+  }
+]
+```
+
+Please clarify if "older" should be interpreted differently within this context or if you have additional information that would allow me to infer the correct posts according to your criteria.
